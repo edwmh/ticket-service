@@ -59,7 +59,7 @@ public class InMemoryTicketService implements TicketService {
     }
 
     // check for available seating
-    public int numSeatsAvailable(Optional<Integer> venueLevel) {
+    public static int numSeatsAvailable(Optional<Integer> venueLevel) {
         return seatList.stream()
                 .filter(seat -> seat.getTierLevel().equals(venueLevel.orElse(seat.getTierLevel())))
                 .filter(SeatPojo::seatReserved)

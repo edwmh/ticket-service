@@ -18,6 +18,11 @@ Welcome to the WISARD (Walmart Interview Seating and Reservation Details) applic
 # Run
 * java -jar target/ticket-application-1.0-SNAPSHOT-jar-with-dependencies.jar
 
+# Unit Testing (junit)
+* testing is automatically done when you run the "mvn command" package
+* you can run the unit tests any time from the command line via "mvn test"
+* all 3 methods provided by the original TicketService interface are unit tested
+
 # Guide
 * You can run the application without having Git, Maven, or Java SDK installed.  You just need to have the JRE 8 installed and download the [.jar file](https://github.com/edwmh/ticket-service/blob/master/target/ticket-application-1.0-SNAPSHOT-jar-with-dependencies.jar?raw=true) directly and run it using "java -jar" from the command line
 * This is a simple, command-line application that will guide and prompt the user for input as necessary.  The application runs continuously until exited.  The state is never saved to disk or a data store
