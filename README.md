@@ -1,4 +1,4 @@
-# ticket-service
+# ticket-service - Walmart interview homework
 
 Welcome to the WISARD (Walmart Interview Seating and Reservation Details) application
 
